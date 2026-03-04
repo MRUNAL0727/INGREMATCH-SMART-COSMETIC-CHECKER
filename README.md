@@ -24,17 +24,17 @@ IngreMatch is a UI-based web application developed to help users instantly explo
 5. Correlation between price and formulation complexity
 
 ## 🛠 Tools & Technologies Used
-Python (Pandas, NumPy)
-Data Cleaning & Preprocessing
-Web Application UI Framework
-Tableau (Interactive Dashboard & Data Visualization)
-VS Code
+1. Python (Pandas, NumPy)
+2. Data Cleaning & Preprocessing
+3. Web Application UI Framework
+4. Tableau (Interactive Dashboard & Data Visualization)
+5. VS Code
 
 ## 🧠 Skills Demonstrated
-Data Analytics
-Data Visualization
-Dashboard Development
-Exploratory Data Analysis (EDA)
-Data Cleaning & Structuring
-UI-Based Application Development
-Business Intelligence   
+1. Data Analytics
+2. Data Visualization
+3. Dashboard Development
+4. Exploratory Data Analysis (EDA)
+5. Data Cleaning & Structuring
+6. UI-Based Application Development
+7. Business Intelligence   
