@@ -1,0 +1,77 @@
+body {
+  font-family: Arial, sans-serif;
+  background-image: url('../img/background.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: 0;
+  padding: 0;
+  color: #fff;
+}
+
+.container {
+  text-align: center;
+  padding: 40px;
+  min-height: 100vh;
+}
+
+.logo {
+  width: 80px;
+  vertical-align: middle;
+}
+
+h1 {
+  display: inline-block;
+  margin-left: 10px;
+  font-size: 2.5rem;
+  color: #ffd700;
+  vertical-align: middle;
+}
+
+.search-bar {
+  margin-top: 20px;
+}
+
+input[type="text"] {
+  padding: 10px;
+  width: 300px;
+  font-size: 16px;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  margin-left: 10px;
+  cursor: pointer;
+  border-radius: 8px;
+  background-color: #ff69b4;
+  color: white;
+  border: none;
+}
+
+button:hover {
+  background-color: #ff1493;
+}
+
+/* ✅ Frosted glass result box */
+#result {
+  display: none;
+  margin-top: 30px;
+  font-size: 18px;
+  padding: 20px 30px;
+  border-radius: 16px;
+  max-width: 90%;
+  color: white;
+  position: relative;
+  z-index: 1;
+
+  /* 🕶️ Dark frosted glass effect */
+  background: rgba(0, 0, 0, 0.4); /* darker transparent background */
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.1); /* subtle light border */
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.5); /* darker shadow */
+}
